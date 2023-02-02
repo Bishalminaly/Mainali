@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mr_x.com</title>
+<link rel="icon" href="earth.png" alt="icon-earth" />
+
+	<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+	font-size: 20px;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin: 15px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 25px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
+		}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+
+.main{
+	max-width:1200px;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 25px;
+	font-family: MV Boli, Courier New;
+
+	
+}
+
+.button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: aqua;
+	color: #000;
+}
+
+@media screen and (width: 600px){
+	background-color: black;
+	color: #fff;
+}
+</style>
+
+
+
+</head>
+<body>
+
+<header>
+	<div class="main">
+		
+		<ul>
+			<li class="active"><a href="#" name="Home">Home</a></li>
+			<li> <a href="Services.html" name="Services">Services</a></li>
+			<li><a href="Gallary.html" name="Gallary" >Gallery</a></li>
+			<li><a href="about.html" name="about" target="_blank"  >About</a></li>
+			<li><a href="contact-us.html"   >Contact</a></li>
+		</ul>
+		</div>
+		<div class="title">
+			<h1>Dynamic Computer Traning Center. </h1>
+		</div>
+		<div class="button">
+			<a href="C:\Users\Dynamic\Desktop\htmm\Gallary.html" class="btn" >Watch Video</a>
+			<a href="#" class="btn" >Learn More</a>
+		</div>
+</header>
+</body>
+</html>
+
